@@ -14,7 +14,6 @@ two consecutive occurrences of the character '\n'.
 */
 
 #include <iostream>
-#include <string>
 #include <fstream>
 using namespace std;
 
