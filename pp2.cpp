@@ -158,7 +158,7 @@ double computeAverageFromFile(istream& input) {
     if(validDoubleString(current)) {
         counter ++;
         cout << "#" << counter << " number found: " << current << endl;
-        average += stringToDouble(current);
+        average += stringToDouble(current); 
     } else cout << "\t" << current << " is not a valid string -> ignore" << endl;
 
     //Make sure to avoid division by 0.
